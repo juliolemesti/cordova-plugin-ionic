@@ -23,7 +23,7 @@
  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-@interface Base64 : NSObject
+@interface Base64Test : NSObject
 
 + (NSString *)base64String:(NSString *)str;
 

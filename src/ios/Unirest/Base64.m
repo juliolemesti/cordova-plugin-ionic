@@ -23,9 +23,9 @@
  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#import "Base64.h"
+#import "Base64Test.h"
 
-@implementation Base64
+@implementation Base64Test
 
 + (NSString *)base64String:(NSString *)str
 {

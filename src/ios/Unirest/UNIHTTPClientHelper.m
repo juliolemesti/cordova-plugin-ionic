@@ -24,7 +24,7 @@
  */
 
 #import "UNIHTTPClientHelper.h"
-#import "Base64.h"
+#import "Base64Test.h"
 #import "UNIRest.h"
 
 @interface UNIHTTPClientHelper()
@@ -181,7 +181,7 @@
         NSString* pass = ([request password] == nil) ? @"" : [request password];
         NSString *credentials = [NSString stringWithFormat: @"%@:%@", user, pass];
 
-        NSString* header = [NSString stringWithFormat:@"Basic %@", [Base64 base64String:credentials]];
+        NSString* header = [NSString stringWithFormat:@"Basic %@", [Base64Test base64String:credentials]];
         [headers setValue:header forKey:@"authorization"];
     }
     
