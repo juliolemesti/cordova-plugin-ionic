@@ -1,6 +1,11 @@
 Changelog
 ======
 
+# 3.1.3
+
+* Fixed a bug where `ng-cordova` could potentially be overwritten when a deploy is applied.
+* Update no-zip branch
+
 # 3.1.2
 
 * Fixed the extract callback value
